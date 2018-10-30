@@ -1,0 +1,88 @@
+css
+.Header 
+    {
+    	width: 100%;
+    	text-align: center;
+    }
+.image
+    {
+    	width: 100%;
+    	text-align: center;
+    	padding-top: 20px;
+    }
+
+.head
+    {
+    	width: 100%;
+    	text-align: center;
+    	font-family: Lucida Sans Unicode;
+    	font-size: 20px;
+    }    
+
+ul.topnav
+{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 8%;
+	overflow: hidden;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a 
+{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+  font-family: lato;
+  font-stretch: expanded;
+}
+ul.topnav li a:hover:not(.active) {background-color: cyan;}
+
+ul.topnav li a.active {background-color: cyan;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 1080px)
+{
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    .search {display: none;}
+}
+
+.body
+{
+	text-align: center;
+	width: 100%;
+}
+form.example input[type=text] 
+{
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 75%;
+    background: white;
+}
+
+form.example button 
+{
+	border: black;
+	border-width: 3px;
+
+	padding: 5px 5px;
+}
+
+form.example button:hover 
+{
+    background:cyan;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+}
