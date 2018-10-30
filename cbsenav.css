@@ -44,26 +44,6 @@ ul.topnav li a.active {background-color: cyan;}
 
 ul.topnav li.right {float: right;}
 
-
-
- @media (max-width:650px) 
-  {
-    .column
-    {
-      width: 80%;
-      margin-left: 9%;
-      margin-top: 5%;
-    }
-
-    .heading {
-      font-size: 1em;
-    }
-
-    .highligh {
-      font-size: 1px;
-    }
-  }
-
 @media  (max-width: 1080px)
 {
     ul.topnav li.right, 
@@ -86,6 +66,18 @@ ul.topnav li.right {float: right;}
       font-size: 0.500em;
     }
   }
+
+ @media (min-width:576px) 
+  {
+    .column
+    {
+      width: 80%;
+      margin-left: 9%;
+      margin-top: 5%;
+    }
+
+   
+
   
 
  
